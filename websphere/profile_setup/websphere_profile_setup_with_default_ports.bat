@@ -12,7 +12,7 @@ REM # Note:It will always delete the existing profile if the given profile name 
 REM #-------------------------------------------------------------------------------------------------------------#
 echo "Websphere Profile Setup [ WAS6.1 / WAS7.0 ] With Default Ports for Development"
 echo "You need to change the WAS_HOME value based on your machine"
-set WAS_HOME=C:/Program Files (x86)/IBM/SDP/runtimes/base_v7
+set WAS_HOME=C:/Program Files/IBM/SDP/runtimes/base_v7
 echo "WAS_HOME => %WAS_HOME%"
 echo "You need to give the profile name: '<<Name>>Profile' "
 set PROFILE_NAME=DevProfile
